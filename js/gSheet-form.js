@@ -7,14 +7,11 @@ function dataForm(formName) {
     e.preventDefault();
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then((response) => console.log('Success!', response))
-      .then(() => {
-        form.reset();
-      })
-      .then(() => {
-        window.location.reload();
-      })
       .catch((error) => {
         console.error('Error!', error.message);
+      })
+      .then(() => {
+        form.reset();
         window.location.reload();
       });
   });
