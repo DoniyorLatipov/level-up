@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>level UP! — курсы</title>
+    <link rel="stylesheet" href="/style/courses__style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="hdr__wrapper">
+        <div class="hdr__container">
+          <a href="/index.html">
+            <picture class="hdr__logo">
+              <source
+                srcset="/img/header/logo__m5.svg"
+                media="(max-width: 500px)"
+              />
+              <source
+                srcset="/img/header/logo__m10.svg"
+                media="(max-width: 1000px)"
+              />
+              <img
+                src="/img/header/logo.svg"
+                class="hdr__logo-pic"
+                alt="logo"
+              />
+            </picture>
+          </a>
+          <a href="/index.html" class="hdr__back-link">
+            Обратно
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="courses__wrapper">
+      <div class="crs__cards">
+        <article class="crs__card" id="crs__general">
+          <div class="crs__title">
+            <img
+              src="img/courses/crs-ge.png"
+              alt="General English"
+              class="crs__pic"
+            />
+            <h3 class="crs__name">General English</h3>
+          </div>
+          <div class="crs__info">
+            <p class="crs__desc">
+              Улучшите ваши навыки владения английским языком на 1 уровень за 3
+              месяца. Курс для улучшения навыков или поступления вВУЗы.
+            </p>
+            <div class="crs__main">
+              <span class="crs__time"
+                ><strong class="crs__main-sel">3 урока</strong> в неделю</span
+              >
+              <span class="crs__price"
+                ><strong class="crs__main-sel">60$</strong> за месяц</span
+              >
+            </div>
+          </div>
+          <button type="button" class="more crs__more btn__interaction">
+            Подробнее
+          </button>
+        </article>
+        <article class="crs__card" id="crs__grammar">
+          <div class="crs__title">
+            <img
+              src="img/courses/crs-bgr.png"
+              alt="Base Grammar"
+              class="crs__pic"
+            />
+            <h3 class="crs__name">Base Grammar</h3>
+          </div>
+          <div class="crs__info">
+            <p class="crs__desc">
+              Подтяните грамматику в сжатые сроки с нашим интенсивным курсом!
+              Граматическая подготовка к IELTS, FCE, SAT, TOEFL
+            </p>
+            <div class="crs__main">
+              <span class="crs__time"
+                ><strong class="crs__main-sel">3 урока</strong> в неделю</span
+              >
+              <span class="crs__price"
+                ><strong class="crs__main-sel">60$</strong> за месяц</span
+              >
+            </div>
+          </div>
+          <button type="button" class="more crs__more btn__interaction">
+            Подробнее
+          </button>
+        </article>
+        <article class="crs__card" id="crs__business">
+          <div class="crs__title">
+            <img
+              src="img/courses/crs-buse.png"
+              alt="Business English"
+              class="crs__pic"
+            />
+            <h3 class="crs__name">Business English</h3>
+          </div>
+          <div class="crs__info">
+            <p class="crs__desc">
+              Подготовьтесь к переговорам, презентациям, составлению резюме. Наш
+              бизнес курс позволит вам работать на международном уровне.
+            </p>
+            <div class="crs__main">
+              <span class="crs__time"
+                ><strong class="crs__main-sel">3 урока</strong> в неделю</span
+              >
+              <span class="crs__price"
+                ><strong class="crs__main-sel">60$</strong> за месяц</span
+              >
+            </div>
+          </div>
+          <button type="button" class="more crs__more btn__interaction">
+            Подробнее
+          </button>
+        </article>
+        <article class="crs__card" id="crs__ielts">
+          <div class="crs__title">
+            <img
+              src="img/courses/crs-ielts.png"
+              alt="IELTS Preparation"
+              class="crs__pic"
+            />
+            <h3 class="crs__name">IELTS Preparation</h3>
+          </div>
+          <div class="crs__info">
+            <p class="crs__desc">
+              Получите нужный балл по IELTS! На этом интенсивном курсе вы
+              отработаете стратегии сдачи IELTS, и подготовитесь к каждому
+              модулю экзамена.
+            </p>
+            <div class="crs__main">
+              <span class="crs__time"
+                ><strong class="crs__main-sel">3 урока</strong> в неделю</span
+              >
+              <span class="crs__price"
+                ><strong class="crs__main-sel">60$</strong> за месяц</span
+              >
+            </div>
+          </div>
+          <button type="button" class="more crs__more btn__interaction">
+            Подробнее
+          </button>
+        </article>
+        <a href="/courses.html" class="crs__more-footer"> Все курсы </a>
+      </div>
+    </div>
+
+    <div class="popup crs__popup" id="crs__popup-general">
+      <div class="pop-wrapper">
+        <div class="c__pop-content" id="c__pop-content-general">
+          <div class="c__pop-heading">
+            <img src="/img/modal/crs/ge.png" alt="" class="c__pop-pic" />
+            <h2 class="c__pop-title">General English</h2>
+          </div>
+          <div class="c__pop-main">
+            <p class="c__pop-desc">
+              Улучшите ваши навыки владения английским языком на 1 уровень за 3
+              месяца. Этот курс подойдет тем, кто хочет усовершенствовать знание
+              грамматики, разговорные и письменные навыки для карьерного роста
+              или поступления в ВУЗы.
+            </p>
+            <div class="c__pop-info">
+              <span class="c__pop-time"
+                ><strong class="c__pop-info-main">3 урока</strong> в неделю
+                по<br />
+                <strong class="c__pop-info-main">1 час 30 мин</strong></span
+              ><span class="c__pop-price"
+                ><strong class="c__pop-info-main">500 тыс. сум</strong> за
+                месяц</span
+              >
+            </div>
+          </div>
+          <form action="" class="c__pop-form">
+            <div class="c__pop-form-cell">
+              <label for="c__pop-name" class="c__pop-label">Вашe имя:</label
+              ><input
+                type="text"
+                class="c__pop-input"
+                id="c__pop-name"
+                placeholder="Ваше имя"
+              />
+            </div>
+            <div class="c__pop-form-cell">
+              <label for="c__pop-phone" class="c__pop-label">Ваш телефон:</label
+              ><input
+                type="tel"
+                name="tel"
+                class="c__pop-input"
+                id="c__pop-phone-general"
+                placeholder="+998 (__) ___-__-__"
+              />
+            </div>
+            <button type="submit" class="c__pop-submite" id="c__pop-submite-general">Записаться</button>
+          </form>
+
+          <div class="pop-close crs__pop-close" id="c__pop-close-general">
+            <div class="pop-close-line pop-close-line-1"></div>
+            <div class="pop-close-line pop-close-line-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup crs__popup" id="crs__popup-grammar">
+      <div class="pop-wrapper">
+        <div class="c__pop-content" id="c__pop-content-grammar">
+          <div class="c__pop-heading">
+            <img
+              src="/img/modal/crs/bgr.png"
+              alt="Base Grammar"
+              class="c__pop-pic"
+            />
+            <h2 class="c__pop-title">Base Grammar</h2>
+          </div>
+          <div class="c__pop-main">
+            <p class="c__pop-desc">
+              Подтяните грамматику в сжатые сроки с нашим интенсивным курсом!
+              Вам подойдет «Грамматика за 2 месяца», если вы хотите восполнить
+              пробелы в знании грамматических структур, выстроить или укрепить
+              фундамент устной и письменной коммуникации, или структурировать
+              свои знания грамматики для последующей подготовки к международным
+              экзаменам (IELTS, FCE, SAT, TOEFL).
+            </p>
+            <div class="c__pop-info">
+              <span class="c__pop-time"
+                ><strong class="c__pop-info-main">3 урока</strong> в неделю
+                по<br />
+                <strong class="c__pop-info-main">1 час 30 мин</strong></span
+              ><span class="c__pop-price"
+                ><strong class="c__pop-info-main">500 тыс. сум</strong> за
+                месяц</span
+              >
+            </div>
+          </div>
+          <form action="" class="c__pop-form">
+            <div class="c__pop-form-cell">
+              <label for="c__pop-name" class="c__pop-label">Вашe имя:</label
+              ><input
+                type="text"
+                class="c__pop-input"
+                id="c__pop-name"
+                placeholder="Ваше имя"
+              />
+            </div>
+            <div class="c__pop-form-cell">
+              <label for="c__pop-phone" class="c__pop-label">Ваш телефон:</label
+              ><input
+                type="tel"
+                name="tel"
+                class="c__pop-input"
+                id="c__pop-phone-grammar"
+                placeholder="+998 (__) ___-__-__"
+              />
+            </div>
+            <button type="submit" class="c__pop-submite" id="c__pop-submite-grammar">Записаться</button>
+          </form>
+
+          <div class="pop-close crs__pop-close" id="c__pop-close-grammar">
+            <div class="pop-close-line pop-close-line-1"></div>
+            <div class="pop-close-line pop-close-line-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup crs__popup" id="crs__popup-ielts">
+      <div class="pop-wrapper">
+        <div class="c__pop-content" id="c__pop-content-ielts">
+          <div class="c__pop-heading">
+            <img
+              src="/img/modal/crs/ielts.png"
+              alt="IELTS"
+              class="c__pop-pic"
+            />
+            <h2 class="c__pop-title">IELTS Preparation</h2>
+          </div>
+          <div class="c__pop-main">
+            <p class="c__pop-desc">
+              Получите нужный балл по IELTS! На этом интенсивном курсе вы
+              отработаете стратегии сдачи IELTS, и подготовитесь к каждому
+              модулю экзамена: чтение, письмо, устная речь и восприятие речи на
+              слух.
+            </p>
+            <div class="c__pop-info">
+              <span class="c__pop-time"
+                ><strong class="c__pop-info-main">3 урока</strong> в неделю
+                по<br />
+                <strong class="c__pop-info-main">1 час 30 мин</strong></span
+              ><span class="c__pop-price"
+                ><strong class="c__pop-info-main">500 тыс. сум</strong> за
+                месяц</span
+              >
+            </div>
+          </div>
+          <form action="" class="c__pop-form">
+            <div class="c__pop-form-cell">
+              <label for="c__pop-name" class="c__pop-label">Вашe имя:</label
+              ><input
+                type="text"
+                class="c__pop-input"
+                id="c__pop-name"
+                placeholder="Ваше имя"
+              />
+            </div>
+            <div class="c__pop-form-cell">
+              <label for="c__pop-phone" class="c__pop-label">Ваш телефон:</label
+              ><input
+                type="tel"
+                name="tel"
+                class="c__pop-input"
+                id="c__pop-phone-ielts"
+                placeholder="+998 (__) ___-__-__"
+              />
+            </div>
+            <button type="submit" class="c__pop-submite" id="c__pop-submite-ielts">Записаться</button>
+          </form>
+
+          <div class="pop-close crs__pop-close" id="c__pop-close-ielts">
+            <div class="pop-close-line pop-close-line-1"></div>
+            <div class="pop-close-line pop-close-line-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup crs__popup" id="crs__popup-business">
+      <div class="pop-wrapper">
+        <div class="c__pop-content" id="c__pop-content-business">
+          <div class="c__pop-heading">
+            <img
+              src="/img/modal/crs/bgr.png"
+              alt="Base Grammar"
+              class="c__pop-pic"
+            />
+            <h2 class="c__pop-title">Business English</h2>
+          </div>
+          <div class="c__pop-main">
+            <p class="c__pop-desc">
+              Подтяните грамматику в сжатые сроки с нашим интенсивным курсом!
+              Вам подойдет «Грамматика за 2 месяца», если вы хотите восполнить
+              пробелы в знании грамматических структур, выстроить или укрепить
+              фундамент устной и письменной коммуникации, или структурировать
+              свои знания грамматики для последующей подготовки к международным
+              экзаменам (IELTS, FCE, SAT, TOEFL).
+            </p>
+            <div class="c__pop-info">
+              <span class="c__pop-time"
+                ><strong class="c__pop-info-main">3 урока</strong> в неделю
+                по<br />
+                <strong class="c__pop-info-main">1 час 30 мин</strong></span
+              ><span class="c__pop-price"
+                ><strong class="c__pop-info-main">500 тыс. сум</strong> за
+                месяц</span
+              >
+            </div>
+          </div>
+          <form action="" class="c__pop-form">
+            <div class="c__pop-form-cell">
+              <label for="c__pop-name" class="c__pop-label">Вашe имя:</label
+              ><input
+                type="text"
+                class="c__pop-input"
+                id="c__pop-name-business"
+                placeholder="Ваше имя"
+              />
+            </div>
+            <div class="c__pop-form-cell">
+              <label for="c__pop-phone" class="c__pop-label">Ваш телефон:</label
+              ><input
+                type="tel"
+                name="tel"
+                class="c__pop-input"
+                id="c__pop-phone-business"
+                placeholder="+998 (__) ___-__-__"
+              />
+            </div>
+            <button type="submit" class="c__pop-submite" id="c__pop-submite-business">Записаться</button>
+          </form>
+
+          <div class="pop-close crs__pop-close" id="c__pop-close-business">
+            <div class="pop-close-line pop-close-line-1"></div>
+            <div class="pop-close-line pop-close-line-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/imask"></script>
+
+    <script src="/js/courses__main.js"></script>
+  </body>
+</html>
