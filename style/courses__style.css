@@ -1,107 +1,99 @@
-@import "/style/reset.css";
-
 /*fonts start*/
 
 /* jost-regular - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/jost-v15-cyrillic_latin-regular.woff2") format("woff2"),
+  src: url('../fonts/jost-v15-cyrillic_latin-regular.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/jost-v15-cyrillic_latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/jost-v15-cyrillic_latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* jost-italic - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/jost-v15-cyrillic_latin-italic.woff2") format("woff2"),
+  src: url('../fonts/jost-v15-cyrillic_latin-italic.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/jost-v15-cyrillic_latin-italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/jost-v15-cyrillic_latin-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* jost-500 - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/jost-v15-cyrillic_latin-500.woff2") format("woff2"),
+  src: url('../fonts/jost-v15-cyrillic_latin-500.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/jost-v15-cyrillic_latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/jost-v15-cyrillic_latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* jost-600 - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/jost-v15-cyrillic_latin-600.woff2") format("woff2"),
+  src: url('../fonts/jost-v15-cyrillic_latin-600.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/jost-v15-cyrillic_latin-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/jost-v15-cyrillic_latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* jost-700 - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/jost-v15-cyrillic_latin-700.woff2") format("woff2"),
+  src: url('../fonts/jost-v15-cyrillic_latin-700.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/jost-v15-cyrillic_latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/jost-v15-cyrillic_latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* montserrat-alternates-regular - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/montserrat-alternates-v17-cyrillic_latin-regular.woff2")
-      format("woff2"),
+  src: url('../fonts/montserrat-alternates-v17-cyrillic_latin-regular.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/montserrat-alternates-v17-cyrillic_latin-regular.ttf")
-      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/montserrat-alternates-v17-cyrillic_latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* montserrat-alternates-600 - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/montserrat-alternates-v17-cyrillic_latin-600.woff2")
-      format("woff2"),
+  src: url('../fonts/montserrat-alternates-v17-cyrillic_latin-600.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/montserrat-alternates-v17-cyrillic_latin-600.ttf")
-      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/montserrat-alternates-v17-cyrillic_latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Bauhaus LT(RUS BY LYAJKA)";
+  font-family: 'Bauhaus LT(RUS BY LYAJKA)';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/bauhas_lt\(RUS\ BY\ LYAJKA\).ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url('../fonts/bauhas_lt\(RUS\ BY\ LYAJKA\).ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /* old-standard-tt-regular - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Old Standard TT";
+  font-family: 'Old Standard TT';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/old-standard-tt-v20-cyrillic_latin-regular.woff2")
-      format("woff2"),
+  src: url('../fonts/old-standard-tt-v20-cyrillic_latin-regular.woff2') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/old-standard-tt-v20-cyrillic_latin-regular.ttf")
-      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/old-standard-tt-v20-cyrillic_latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 /*general start*/
@@ -118,7 +110,7 @@ html {
 
 body {
   color: #000;
-  font-family: "Jost";
+  font-family: 'Jost';
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -178,7 +170,7 @@ main {
   align-items: center;
 }
 
-.hdr__back-link{
+.hdr__back-link {
   font-size: 30px;
   font-weight: 500;
   text-decoration: none;
@@ -214,7 +206,7 @@ main {
   margin-bottom: 150px;
 }
 
-.courses__wrapper{
+.courses__wrapper {
   padding-top: 120px;
   display: flex;
   flex-direction: column;
@@ -243,7 +235,7 @@ main {
 
 .crs__heading-more {
   color: #7a7a7a;
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -270,14 +262,15 @@ main {
   border-radius: 100px;
   background: #fff;
   border: 2px solid #caa5f2;
-  transition: 0.1s all
+  transition: 0.1s all;
 }
 
-.crs__card:hover, .crs__card:active {
+.crs__card:hover,
+.crs__card:active {
   transform: scale(1.02);
   border: 2px solid #9f45ff;
 }
-  
+
 .crs__title {
   display: flex;
   justify-content: center;
@@ -323,19 +316,19 @@ main {
   display: none;
 }
 
-.crs__popup{
+.crs__popup {
   padding: 20px 20px;
 }
 
-.c__pop-content{
+.c__pop-content {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
   border-radius: 87px;
   background-color: #fff;
-  background-image: url(/img/modal/crs/crs__modal-bg.png),
-    url(/img/modal/crs/crs__modal-bg1.png);
+  background-image: url(../img/modal/crs/crs__modal-bg.png),
+    url(../img/modal/crs/crs__modal-bg1.png);
   background-repeat: no-repeat, no-repeat;
   background-position: center right 57px, -200px -210px;
   row-gap: 25px;
@@ -346,23 +339,23 @@ main {
   transition: 0.2s;
 }
 
-.c__pop-heading{
+.c__pop-heading {
   display: flex;
   align-items: center;
   column-gap: 20px;
 }
 
-.c__pop-pic{
+.c__pop-pic {
   height: fit-content;
 }
 
-.c__pop-title{
+.c__pop-title {
   width: 100%;
   font-size: 50px;
   font-weight: 600;
 }
 
-.c__pop-desc{
+.c__pop-desc {
   max-width: 720px;
   color: #434343;
   font-family: 'Jost';
@@ -370,34 +363,34 @@ main {
   font-weight: 600;
 }
 
-.c__pop-main{
+.c__pop-main {
   column-gap: 30px;
   display: flex;
   align-items: center;
 }
 
-.c__pop-info{
+.c__pop-info {
   display: flex;
   flex-direction: column;
   font-size: 24px;
   font-weight: 600;
   row-gap: 15px;
   text-align: center;
-} 
-
-.c__pop-info-main{
-  color: #45B8CF;
 }
 
-.c__pop-form{
+.c__pop-info-main {
+  color: #45b8cf;
+}
+
+.c__pop-form {
   width: 100%;
   display: flex;
   align-items: end;
 }
 
-.c__pop-form-cell:first-of-type{
+.c__pop-form-cell:first-of-type {
   margin-right: 40px;
-}   
+}
 
 .c__pop-form-cell {
   display: flex;
@@ -405,13 +398,13 @@ main {
   flex-direction: column;
 }
 
-.c__pop-label{
+.c__pop-label {
   padding-left: 15px;
   font-size: 22px;
   font-weight: 600;
 }
 
-.c__pop-input{
+.c__pop-input {
   padding: 17px 0;
   padding-left: 28px;
   border-radius: 10px;
@@ -424,7 +417,7 @@ main {
   transform: scale(1.02);
 }
 
-.c__pop-input::placeholder{
+.c__pop-input::placeholder {
   font-family: 'Jost';
   color: #434343;
   font-size: 25px;
@@ -432,11 +425,11 @@ main {
   text-transform: none;
 }
 
-.c__pop-submite{
+.c__pop-submite {
   margin-left: auto;
   padding: 20px 55px;
   height: fit-content;
-  color: #FFF;
+  color: #fff;
   font-family: 'Montserrat Alternates';
   font-size: 25px;
   border-radius: 10px;
@@ -446,12 +439,12 @@ main {
   transition: 0.2s all;
 }
 
-.c__pop-submite-active{
+.c__pop-submite-active {
   background: #caa5f2;
   transform: scale(1.05);
 }
 
-.crs__pop-close{
+.crs__pop-close {
   right: 87px;
   top: 60px;
 }
@@ -496,49 +489,47 @@ main {
 }
 
 @media screen and (max-width: 1500px) {
-  .crs__cards{
+  .crs__cards {
     grid-template-columns: repeat(2, 1fr);
-  }  
+  }
 }
 
 @media screen and (max-width: 1280px) {
-  .c__pop-content{
-    background-image: none,
-    url(/img/modal/crs/crs__modal-bg1.png);
+  .c__pop-content {
+    background-image: none, url(../img/modal/crs/crs__modal-bg1.png);
     row-gap: 10px;
     background-position: -200px -240px;
   }
 
-  .c__pop-main{
+  .c__pop-main {
     flex-direction: column;
     row-gap: 20px;
   }
 
-  .c__pop-info{
+  .c__pop-info {
     flex-direction: row;
     column-gap: 30px;
     align-items: center;
   }
 
-  .c__pop-form{
+  .c__pop-form {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 20px;
     max-width: 630px;
   }
 
-  .c__pop-title{
+  .c__pop-title {
     font-size: 40px;
   }
-  
-  .c__pop-submite{
+
+  .c__pop-submite {
     margin-left: 0;
   }
 }
 
-
 @media screen and (max-width: 1000px) {
-  .crs__cards{
+  .crs__cards {
     row-gap: 30px;
     display: flex;
     flex-direction: column;
@@ -546,87 +537,87 @@ main {
     max-width: 600px;
   }
 
-  .crs__name{
+  .crs__name {
     font-size: 30px;
   }
 
   .crs__desc,
   .crs__time,
-  .crs__price{
+  .crs__price {
     font-size: 25px;
   }
-  
-  .c__pop-content{
+
+  .c__pop-content {
     padding: 50px;
   }
 
-  .c__pop-title{
+  .c__pop-title {
     font-size: 25px;
   }
 
   .c__pop-desc,
-  .c__pop-submite{
+  .c__pop-submite {
     font-size: 20px;
   }
 
   .c__pop-info,
   .c__pop-form,
-  .c__pop-input::placeholder{
+  .c__pop-input::placeholder {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .c__pop-content{
+  .c__pop-content {
     background-position: -280px -280px;
   }
 
-  .c__pop-title{
+  .c__pop-title {
     font-size: 30px;
   }
 
-  .c__pop-desc{
+  .c__pop-desc {
     font-size: 24px;
     max-width: 500px;
   }
 
   .c__pop-info,
   .c__pop-form,
-  .c__pop-input::placeholder{
+  .c__pop-input::placeholder {
     font-size: 20px;
   }
 
-  .c__pop-form-cell:first-of-type{
+  .c__pop-form-cell:first-of-type {
     margin: 0;
   }
 
-  .c__pop-label{
+  .c__pop-label {
     display: none;
   }
 
-  .c__pop-info{
+  .c__pop-info {
     flex-direction: column;
   }
 
-  .c__pop-form{
+  .c__pop-form {
     flex-direction: column;
     align-items: center;
   }
 
-  .c__pop-submite{
+  .c__pop-submite {
     padding: 20px 30px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .hdr__back-link{
+  .hdr__back-link {
     padding: 10px 15px;
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .crs__pop-close{
+  .crs__pop-close {
     top: 35px;
     right: 35px;
   }
@@ -635,13 +626,13 @@ main {
     padding: 0;
   }
 
-  .c__pop-content{
+  .c__pop-content {
     min-height: 100vh;
     height: fit-content;
     width: 100vw;
     border-radius: 0;
   }
-  .crs__cards{
+  .crs__cards {
     padding: 20px 15px;
   }
 
@@ -651,38 +642,38 @@ main {
     width: 40px;
   }
 
-  .crs__title{
+  .crs__title {
     column-gap: 10px;
   }
 
-  .crs__name{
+  .crs__name {
     font-size: 25px;
   }
 
   .crs__desc,
   .crs__time,
-  .crs__price{
+  .crs__price {
     font-size: 20px;
   }
 
-  .crs__more{
+  .crs__more {
     font-size: 18px;
     padding: 15px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .crs__card{
+  .crs__card {
     padding: 20px 5px;
     border-radius: 30px;
   }
 
-  .c__pop-content{
+  .c__pop-content {
     padding: 40px 15px;
   }
 
-  .crs__pop-close{
-    right:  20px;
+  .crs__pop-close {
+    right: 20px;
     top: 20px;
   }
 }
